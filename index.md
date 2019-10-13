@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 首页
 
 欢迎使用闰月（Leap Month）主题！目前，本主题由[钱院学辅技术小组](https://github.com/qyxf)维护。

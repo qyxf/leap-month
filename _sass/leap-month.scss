@@ -365,6 +365,18 @@ h1 {
     -o-text-overflow: ellipsis;
     -ms-text-overflow: ellipsis; } }
 
+@media print, screen and (max-width: 449px)
+{
+  #banner li#project-page {
+      display: none; } }
+
+@media print, screen and (max-width: 359px)
+{
+  #banner li#log {
+      display: none; }
+  section .mobile-info {
+      display: block; } }
+
 @-webkit-keyframes blink {
   0% { color: $background-color; }
   80% { color: $background-color; }

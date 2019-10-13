@@ -25,7 +25,15 @@ Leap month 或「闰月」主题，是一款为 GitHub Jekyll（GitHub Pages 所
 
 ### 布置主题
 
-如果您是从头开始新建一个用于 GitHub Pages 的代码仓库，请您：
+为了与本主题的更新保持同步，建议您直接在您的网站代码仓库中之 `_config.yml` 文件内加入一条：
+
+```yaml
+remote_theme: qyxf/leap-month
+```
+
+即可于在线环境下（包括最终发布在 GitHub Pages 中时）使用闰月主题。
+
+如果您是从头开始新建一个用于 GitHub Pages 的代码仓库，并希望在本地（无网络时）测试闰月主题的效果，请您：
 
 - 将该仓库 fork 到自己名下；
 - 将 fork 来的仓库克隆到本地，将仓库更名为自己所需的名称；
@@ -33,18 +41,6 @@ Leap month 或「闰月」主题，是一款为 GitHub Jekyll（GitHub Pages 所
 - 修改 `_config.yml` 配置文件，使之符合自己的需求；
 - 撰写首页 `index.md`、关于页面 `about.md`、日志页面 `log.md`（该页面可在 `_config.yml` 中关闭）；
 - 基本工作完成，即可在 `_posts` 文件夹下以「博客风」新建文章，或在其他任何地方以「自由风」新建任意页面。
-
-如果您已经有一个使用其他 Jekyll 主题的代码仓库，您需要：
-
-- 在 `_config.yml` 或其他位置移除与旧主题相关的配置信息、样式文件；
-- 克隆本仓库，并将本仓库中的：
-  - `_config.yml` 配置文件
-  - `_sass` 目录（Sass 样式表）
-  - `index.md`、`about.md`、`log.md` 文件（必要的基本页面，您可以自己创建或覆盖同名文件）
-  - `assets` 目录（JavaScript 代码、图片元素、webfonts）
-
-  复制/覆盖到自己的仓库中——注意保留好自己的信息；
-- 提交改动，push 到 GitHub 上即可。
 
 ### 配置选项
 
@@ -58,6 +54,4 @@ Leap month 或「闰月」主题，是一款为 GitHub Jekyll（GitHub Pages 所
 
 ### 自定义
 
-修改主题所定义的样式表，是最为普遍的需求。建议您在修改样式时，通过在 `assets/css` 目录下的 `style.scss` 增加条目来实现（覆盖），而尽量不要在 `_sass` 下已确定的主题文件中直接修改对应样式。
-
-如您需要移除本主题默认支持的插件（不推荐），请您到 `_includes/head.html` 布局模块中移除代码引用，并同时在 `assets/js/main.js` 中移除对应的脚本实现。
+修改主题所定义的样式表，是最为普遍的需求。您可以参考[本页面](https://help.github.com/cn/enterprise/2.17/user/articles/adding-a-theme-to-your-github-pages-site-using-jekyll)，通过在自己的代码仓库之 `assets` 目录下新建 `style.scss` 文件以覆盖主题样式。

@@ -1,3 +1,3 @@
-# 关于我
+# 关于我们
 
-我是 {{ site.author }}，这里是我的个人网站。
+我们是{{ site.author | default: site.github.owner_name }}，这里是我们的网站。

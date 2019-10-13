@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.summary       = 'Leap Month is a Jekyll theme for GitHub Pages'
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|
-    f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|about\.md|log\.md)!i)
+    f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|about|log|index)!i)
   end
 
   s.platform = Gem::Platform::RUBY

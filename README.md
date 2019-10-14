@@ -3,7 +3,7 @@
 [![releases](https://img.shields.io/github/v/release/qyxf/leap-month)](https://github.com/qyxf/leap-month/releases)
 [![license](https://img.shields.io/github/license/qyxf/leap-month)](https://creativecommons.org/share-your-work/public-domain/cc0/)
 
-Leap month 或「闰月」主题，是一款为 GitHub Jekyll（GitHub Pages 所驱动的 Jekyll）定制的网页主题，fork 自 GitHub Pages 官方推出的 [Leap day](https://github.com/page-themes/leap-day) 或「闰日」主题。
+Leap month 或「闰月」主题，是一款为 GitHub Jekyll（GitHub Pages 所驱动的 Jekyll）定制的网页主题，fork 自 GitHub Pages 官方推出的 [Leap day](https://github.com/pages-themes/leap-day) 或「闰日」主题。
 
 > 由于本主题为 GitHub Jekyll 定制，因此依赖于其所额外引入的若干插件；在原生 Jekyll 下使用本主题时，可能出现若干问题。
 
